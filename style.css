@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+img{
+    height: 100vh;
+    box-shadow: 0 0 10px black;
+    border: none;
+}
+
+button{
+    position: absolute;
+    width: 265px;
+    height: 55px;
+    border: none;
+    background: transparent;
+    top: 82%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 430px){
+    img{
+        width: 100%;
+    }
+}
